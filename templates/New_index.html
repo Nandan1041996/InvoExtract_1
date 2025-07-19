@@ -427,7 +427,7 @@
     function showResults(data, message) {
       const messageContainer = document.getElementById('messageContainer');
       const dataPreview = document.getElementById('dataPreview');
-      const emailIcon = data.email_sent ? "✅ 📧" : "❌ 📧";
+      const emailIcon = data.email_sent ? "✅ 📧" : "📧";
       const fullMessage = `${emailIcon} ${message}`;
 
       messageContainer.innerHTML = `<div class="success-message">${fullMessage}</div>`;
